@@ -100,7 +100,7 @@ let emplooyees = [{ "id": 1, "name": "Wrennie", "email": "wpottery0@tuttocitta.i
 { "id": 100, "name": "Dolf", "email": "dblaksley2r@si.edu", "gender": "Male" }]
 
 function display_Data() {
-    let rows = "";
+    let rows = ""
     for (let i = 0; i <= emplooyees.length - 1; i++) {
         rows = rows + `<tr>
                         <td>${emplooyees[i].id}</td>
